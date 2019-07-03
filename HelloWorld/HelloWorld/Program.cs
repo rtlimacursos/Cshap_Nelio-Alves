@@ -7,7 +7,8 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.WriteLine("Bom dia!");
+            Console.WriteLine("Bom Noite!");
+            Console.WriteLine("Brasil 1 x 0 Argentina");
         }
     }
 }
