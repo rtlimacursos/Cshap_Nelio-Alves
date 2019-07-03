@@ -48,10 +48,10 @@ namespace ConsultarCeps
 
         private void btnLimpar_Click(object sender, EventArgs e)
         {
-            txtCep.Text = string.Empty;
-            TxtEstado.Text = string.Empty;
-            txtRua.Text = string.Empty;
-            txtCidade.Text = string.Empty;
+            txtCep.Text     = string.Empty;
+            TxtEstado.Text  = string.Empty;
+            txtRua.Text     = string.Empty;
+            txtCidade.Text  = string.Empty;
         }
 
         private void btnSair_Click(object sender, EventArgs e)
