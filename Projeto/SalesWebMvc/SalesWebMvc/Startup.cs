@@ -30,9 +30,16 @@ namespace SalesWebMvc
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
-
+             
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+<<<<<<< HEAD:Projeto/SalesWebMvc/SalesWebMvc/Startup.cs
+=======
+
+            services.AddDbContext<SalesWebMvcContext>(options =>
+                    options.UseMySql(Configuration.GetConnectionString("SalesWebMvcContext"), builder => builder.MigrationsAssembly("SalesWebMvc")));
+
+>>>>>>> d4403c60664e1829b67447a653227767096f6cf9:SalesWebMvc/SalesWebMvc/Startup.cs
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
